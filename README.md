@@ -1,5 +1,5 @@
 # ObjectStyle MariaDB Docker Image
-This is a MariaDB Docker image for ObjectStyle [site](http://www.objectstyle.com/). Built on top of [centos:centos7](https://registry.hub.docker.com/_/centos/) image
+This is a MariaDB Docker image for ObjectStyle [site](http://www.objectstyle.com/). Built on top of [centos:centos7](https://hub.docker.com/_/centos/) image.
 
 ## Usage
 
