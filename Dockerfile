@@ -4,9 +4,8 @@ MAINTAINER Andrus Adamchik <andrus at objectstyle dot com>
 
 LABEL name=objectstyle-mariadb
 
-RUN yum -y install mariadb-server \
-	&& yum -y update \
-	&& yum clean all
+RUN yum -y install mariadb-server
+RUN yum -y update; yum clean all
 
 COPY setupdb.sql /root/setupdb.sql
 COPY startup.sh /root/startup.sh
