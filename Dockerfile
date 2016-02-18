@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM centos:latest
 
 MAINTAINER Andrus Adamchik <andrus at objectstyle dot com>
 
